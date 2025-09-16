@@ -68,10 +68,8 @@ android {
 dependencies {
     debugImplementation(compose.uiTooling)
 
-    // Plataforma do Firebase (BOM) - pode manter
     implementation(platform("com.google.firebase:firebase-bom:34.2.0"))
 
-    // MUDANÇA PRINCIPAL AQUI: Adicionamos a versão manualmente
     implementation("com.google.firebase:firebase-firestore-ktx:25.0.0")
 
     implementation("com.google.firebase:firebase-analytics")
